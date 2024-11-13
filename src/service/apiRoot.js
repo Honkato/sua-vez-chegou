@@ -1,7 +1,6 @@
 import axios from "axios";
 
-function ApiRoot() {
-    return ( axios.create('https://localhost/') );
-}
+const ApiRoot = axios.create({baseURL:'https://sua-vez-chegou-api.onrender.com/'});
+
 
 export default ApiRoot;
