@@ -8,12 +8,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='flex-col'>
+    <div className='flex-col bg-gray-700 flex flex-1 h-screen'>
     <p/><Link to={'pague-menos/qrcode/'}>pague-menos</Link>
-    <p/><Link to={'bosch-ferramentas/qrcode/'}>bosch-ferramentas</Link>
-    <p/><Link to={'samsung-celulares/qrcode/'}>sansung-celulares</Link>
-    <p/><Link to={'john-deere-caminhoes/qrcode/'}>john-deere-caminhoes</Link>
-    <p/><Link to={'cpfl-energia/qrcode/'}>cpfl-energia</Link>
+    <p/><Link to={'bosch/qrcode/'}>bosch-ferramentas</Link>
+    <p/><Link to={'samsung/qrcode/'}>sansung-celulares</Link>
+    <p/><Link to={'john/qrcode/'}>john-deere-caminhoes</Link>
+    <p/><Link to={'cpfl/qrcode/'}>cpfl-energia</Link>
     <p/>----------<p/><h1>o que falta?</h1>
     <h1>gerar QRCODE</h1>
     <h1>conectar com a API em python</h1>
